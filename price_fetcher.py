@@ -1,4 +1,4 @@
-# price_fetcher.py — FIXED FOR POLYGON (1-minute bars, rate-limit safe)
+# price_fetcher.py
 from polygon import RESTClient
 import pandas as pd
 import time
