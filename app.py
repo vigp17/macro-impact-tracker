@@ -1,4 +1,4 @@
-# app.py — Stunning Bloomberg-style dashboard (run with: streamlit run app.py)
+# app.py — (run with: streamlit run app.py)
 import streamlit as st
 import pandas as pd
 from events_calendar import get_nfp_events
