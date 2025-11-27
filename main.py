@@ -1,4 +1,4 @@
-# main.py — FINAL, 100% WORKING VERSION (just run it)
+# main.py
 import pandas as pd
 from events_calendar import get_nfp_events
 from price_fetcher import get_intraday_data
