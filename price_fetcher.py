@@ -1,4 +1,4 @@
-# price_fetcher.py
+# price_fetcher.py — FIXED FOR POLYGON (1-minute bars, rate-limit safe)
 from polygon import RESTClient
 import pandas as pd
 import time
@@ -6,7 +6,7 @@ import os
 
 # Your Polygon key
 API_KEY = os.getenv("POLYGON_API_KEY", "NSECWOrtkBkoZv6GB38LJEj5Wsp3HxCl")
-client = RESTClient("API_KEY")
+client = RESTClient(API_KEY)
 
 def get_intraday_data(ticker: str, start_date: str, end_date: str, interval="minute"):
     print(f"Downloading {interval} data for {ticker} from {start_date} to {end_date}...", end="")
