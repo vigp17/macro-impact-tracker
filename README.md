@@ -35,3 +35,10 @@ pip install pandas polygon-api-client matplotlib yfinance
 # Run
 python main.py
 
+
+## Live Demo
+👉 [Click here to see it live]([https://vigp17-macro-impact-tracker-newrandom.streamlit.app](https://macro-impact-tracker-cvphezu9dtrfgrtu863f6s.streamlit.app])
+
+### Troubleshooting
+If the demo is blank, check build logs on Streamlit Cloud — usually fixed by `requirements.txt` or secrets.
+
